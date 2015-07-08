@@ -97,7 +97,7 @@ class Dotgpg
     # initialized, so this falls back to the `RAILS_ROOT` environment variable,
     # or the current working directory.
     def root
-      ::Rails.root || Pathname.new(ENV["RAILS_ROOT"] || Dir.pwd)
+      ::Rails.root || Pathname.new(ENV["RAILS_ROOT"] || ::Dir.pwd)
     end
 
     # Rails uses `#method_missing` to delegate all class methods to the
