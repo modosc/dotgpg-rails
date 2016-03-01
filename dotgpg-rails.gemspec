@@ -25,6 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "railties", "~>4.0"
 
   spec.add_dependency "dotgpg"
-  spec.add_dependency "dotgpg-environment", "~> 0.2"
+  spec.add_dependency "dotgpg-environment", "~> 0.2.1"
 
 end
