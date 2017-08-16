@@ -1,4 +1,4 @@
-# Dotgpg::Rails
+# Dotgpg::Rails [![Gem Version](https://badge.fury.io/rb/dotgpg-rails.svg)](https://badge.fury.io/rb/dotgpg-rails)
 
 Shim to load environment variables directly into Rails from dotgpg encrypted files.
 
